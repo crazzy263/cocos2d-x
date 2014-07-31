@@ -18,6 +18,7 @@
 				A03F2E93178141D1006731B9 /* PBXTargetDependency */,
 				A03F2E95178141D1006731B9 /* PBXTargetDependency */,
 				A03F2E97178141D1006731B9 /* PBXTargetDependency */,
+				6577E6F8198A51BD0031A367 /* PBXTargetDependency */,
 			);
 			name = "build all libs Mac";
 			productName = "build-all";
@@ -1218,6 +1219,22 @@
 		50ABC0651926664800A911A9 /* CCGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ABBF531926664700A911A9 /* CCGL.h */; };
 		50ABC0671926664800A911A9 /* CCPlatformDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ABBF541926664700A911A9 /* CCPlatformDefine.h */; };
 		50ABC0691926664800A911A9 /* CCStdC.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ABBF551926664700A911A9 /* CCStdC.h */; };
+		6577E6FF198A52580031A367 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6577E6FE198A52580031A367 /* FacebookSDK.framework */; };
+		6577E701198A56790031A367 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6577E700198A56790031A367 /* Twitter.framework */; };
+		6577E713198A5AB60031A367 /* OKFriends.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E705198A5AB60031A367 /* OKFriends.h */; };
+		6577E714198A5AB60031A367 /* OKFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E706198A5AB60031A367 /* OKFriends.m */; };
+		6577E715198A5AB60031A367 /* Odnoklassniki.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E707198A5AB60031A367 /* Odnoklassniki.h */; };
+		6577E716198A5AB60031A367 /* Odnoklassniki.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E708198A5AB60031A367 /* Odnoklassniki.m */; };
+		6577E717198A5AB60031A367 /* OKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E709198A5AB60031A367 /* OKRequest.h */; };
+		6577E718198A5AB60031A367 /* OKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E70A198A5AB60031A367 /* OKRequest.m */; };
+		6577E719198A5AB60031A367 /* OKRequestConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E70B198A5AB60031A367 /* OKRequestConnection.h */; };
+		6577E71A198A5AB60031A367 /* OKRequestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E70C198A5AB60031A367 /* OKRequestConnection.m */; };
+		6577E71B198A5AB60031A367 /* OKSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E70D198A5AB60031A367 /* OKSession.h */; };
+		6577E71C198A5AB60031A367 /* OKSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E70E198A5AB60031A367 /* OKSession.m */; };
+		6577E71D198A5AB60031A367 /* OKTokenCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E70F198A5AB60031A367 /* OKTokenCache.h */; };
+		6577E71E198A5AB60031A367 /* OKTokenCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E710198A5AB60031A367 /* OKTokenCache.m */; };
+		6577E71F198A5AB60031A367 /* OKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E711198A5AB60031A367 /* OKUtils.h */; };
+		6577E720198A5AB60031A367 /* OKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E712198A5AB60031A367 /* OKUtils.m */; };
 		A07A4CAF1783777C0073F6A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551A342158F2AB200E66CFE /* Foundation.framework */; };
 		B217703C1977ECB4009EE11B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B217703B1977ECB4009EE11B /* IOKit.framework */; };
 		B21770401977ECE6009EE11B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B217703F1977ECE6009EE11B /* OpenGL.framework */; };
@@ -1865,6 +1882,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A07A4EFD178387670073F6A7;
 			remoteInfo = "chipmunk iOS";
+		};
+		6577E6F7198A51BD0031A367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1551A336158F2AB200E66CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6577E6E6198A51400031A367;
+			remoteInfo = "libcribysutils iOS";
 		};
 		A03F2E92178141D1006731B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2870,6 +2894,23 @@
 		50FCEB9018C72017004AD434 /* WidgetReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetReader.cpp; sourceTree = "<group>"; };
 		50FCEB9118C72017004AD434 /* WidgetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetReader.h; sourceTree = "<group>"; };
 		50FCEB9218C72017004AD434 /* WidgetReaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetReaderProtocol.h; sourceTree = "<group>"; };
+		6577E6F6198A51400031A367 /* libcribysutils iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcribysutils iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6577E6FE198A52580031A367 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		6577E700198A56790031A367 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Twitter.framework; sourceTree = DEVELOPER_DIR; };
+		6577E705198A5AB60031A367 /* OKFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKFriends.h; sourceTree = "<group>"; };
+		6577E706198A5AB60031A367 /* OKFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKFriends.m; sourceTree = "<group>"; };
+		6577E707198A5AB60031A367 /* Odnoklassniki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Odnoklassniki.h; sourceTree = "<group>"; };
+		6577E708198A5AB60031A367 /* Odnoklassniki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Odnoklassniki.m; sourceTree = "<group>"; };
+		6577E709198A5AB60031A367 /* OKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKRequest.h; sourceTree = "<group>"; };
+		6577E70A198A5AB60031A367 /* OKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKRequest.m; sourceTree = "<group>"; };
+		6577E70B198A5AB60031A367 /* OKRequestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKRequestConnection.h; sourceTree = "<group>"; };
+		6577E70C198A5AB60031A367 /* OKRequestConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKRequestConnection.m; sourceTree = "<group>"; };
+		6577E70D198A5AB60031A367 /* OKSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKSession.h; sourceTree = "<group>"; };
+		6577E70E198A5AB60031A367 /* OKSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKSession.m; sourceTree = "<group>"; };
+		6577E70F198A5AB60031A367 /* OKTokenCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKTokenCache.h; sourceTree = "<group>"; };
+		6577E710198A5AB60031A367 /* OKTokenCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKTokenCache.m; sourceTree = "<group>"; };
+		6577E711198A5AB60031A367 /* OKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKUtils.h; sourceTree = "<group>"; };
+		6577E712198A5AB60031A367 /* OKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKUtils.m; sourceTree = "<group>"; };
 		A03F2CB81780BD04006731B9 /* libchipmunk Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libchipmunk Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F2D9B1780BDF7006731B9 /* libbox2d Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libbox2d Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F2ED617814268006731B9 /* libcocosdenshion Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocosdenshion Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2964,6 +3005,15 @@
 				1A5703A1180BD22C0088DEC7 /* libtiff.a in Frameworks */,
 				1A5703B8180BD2780088DEC7 /* libwebp.a in Frameworks */,
 				1A57052B180BD31F0088DEC7 /* libfreetype.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6577E6EB198A51400031A367 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6577E701198A56790031A367 /* Twitter.framework in Frameworks */,
+				6577E6FF198A52580031A367 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3157,6 +3207,7 @@
 				500DC89819105D41007B91BF /* renderer */,
 				1AAF5849180E40B8000584C8 /* storage */,
 				2905F9E618CF08D000240AA3 /* ui */,
+				6577E6F9198A51FF0031A367 /* cribysutils */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3183,6 +3234,7 @@
 				B24EEA7619775ECE004493CC /* libcocosbuilder iOS.a */,
 				B24EEA7E19775EE1004493CC /* libspine iOS.a */,
 				B24EEA8619775EF3004493CC /* libnetwork iOS.a */,
+				6577E6F6198A51400031A367 /* libcribysutils iOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3190,6 +3242,7 @@
 		1551A341158F2AB200E66CFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6577E700198A56790031A367 /* Twitter.framework */,
 				B217704C1977ED8B009EE11B /* libsqlite3.dylib */,
 				B217704A1977ED55009EE11B /* libcurl.dylib */,
 				B21770481977ED4C009EE11B /* libz.dylib */,
@@ -5081,6 +5134,77 @@
 			path = TextReader;
 			sourceTree = "<group>";
 		};
+		6577E6F9198A51FF0031A367 /* cribysutils */ = {
+			isa = PBXGroup;
+			children = (
+				6577E6FC198A52580031A367 /* ios */,
+			);
+			name = cribysutils;
+			path = ../cribysutils;
+			sourceTree = "<group>";
+		};
+		6577E6FC198A52580031A367 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				6577E702198A5AB60031A367 /* Social */,
+				6577E6FD198A52580031A367 /* frameworks */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		6577E6FD198A52580031A367 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6577E6FE198A52580031A367 /* FacebookSDK.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		6577E702198A5AB60031A367 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				6577E721198A5ACC0031A367 /* Twitter */,
+				6577E703198A5AB60031A367 /* Odnoklassniki */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		6577E703198A5AB60031A367 /* Odnoklassniki */ = {
+			isa = PBXGroup;
+			children = (
+				6577E704198A5AB60031A367 /* Friends */,
+				6577E707198A5AB60031A367 /* Odnoklassniki.h */,
+				6577E708198A5AB60031A367 /* Odnoklassniki.m */,
+				6577E709198A5AB60031A367 /* OKRequest.h */,
+				6577E70A198A5AB60031A367 /* OKRequest.m */,
+				6577E70B198A5AB60031A367 /* OKRequestConnection.h */,
+				6577E70C198A5AB60031A367 /* OKRequestConnection.m */,
+				6577E70D198A5AB60031A367 /* OKSession.h */,
+				6577E70E198A5AB60031A367 /* OKSession.m */,
+				6577E70F198A5AB60031A367 /* OKTokenCache.h */,
+				6577E710198A5AB60031A367 /* OKTokenCache.m */,
+				6577E711198A5AB60031A367 /* OKUtils.h */,
+				6577E712198A5AB60031A367 /* OKUtils.m */,
+			);
+			path = Odnoklassniki;
+			sourceTree = "<group>";
+		};
+		6577E704198A5AB60031A367 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				6577E705198A5AB60031A367 /* OKFriends.h */,
+				6577E706198A5AB60031A367 /* OKFriends.m */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		6577E721198A5ACC0031A367 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
 		B29594B81926D61F003EEF37 /* 3d */ = {
 			isa = PBXGroup;
 			children = (
@@ -5340,6 +5464,20 @@
 				B6ACD899193D6693005E0B8A /* CCMeshSkin.h in Headers */,
 				B6ACD8A0193DC0CC005E0B8A /* CCAnimate3D.h in Headers */,
 				B6AAF84319404E0D0069DE01 /* CCBundle3D.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6577E6ED198A51400031A367 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6577E71B198A5AB60031A367 /* OKSession.h in Headers */,
+				6577E71F198A5AB60031A367 /* OKUtils.h in Headers */,
+				6577E71D198A5AB60031A367 /* OKTokenCache.h in Headers */,
+				6577E715198A5AB60031A367 /* Odnoklassniki.h in Headers */,
+				6577E713198A5AB60031A367 /* OKFriends.h in Headers */,
+				6577E719198A5AB60031A367 /* OKRequestConnection.h in Headers */,
+				6577E717198A5AB60031A367 /* OKRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6222,6 +6360,23 @@
 			productReference = 1551A33F158F2AB200E66CFE /* libcocos2d Mac.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		6577E6E6198A51400031A367 /* libcribysutils iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6577E6F3198A51400031A367 /* Build configuration list for PBXNativeTarget "libcribysutils iOS" */;
+			buildPhases = (
+				6577E6E7198A51400031A367 /* Sources */,
+				6577E6EB198A51400031A367 /* Frameworks */,
+				6577E6ED198A51400031A367 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libcribysutils iOS";
+			productName = cocos2dx;
+			productReference = 6577E6F6198A51400031A367 /* libcribysutils iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		A03F2B781780BD04006731B9 /* libchipmunk Mac */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A03F2CB51780BD04006731B9 /* Build configuration list for PBXNativeTarget "libchipmunk Mac" */;
@@ -6589,6 +6744,7 @@
 				B24EEA6F19775ECE004493CC /* libcocosbuilder iOS */,
 				B24EEA7719775EE1004493CC /* libspine iOS */,
 				B24EEA7F19775EF3004493CC /* libnetwork iOS */,
+				6577E6E6198A51400031A367 /* libcribysutils iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -6781,6 +6937,20 @@
 				B6ACD897193D6693005E0B8A /* CCMeshSkin.cpp in Sources */,
 				B6ACD89E193DC0CC005E0B8A /* CCAnimate3D.cpp in Sources */,
 				B6AAF84119404E0D0069DE01 /* CCBundle3D.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6577E6E7198A51400031A367 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6577E71C198A5AB60031A367 /* OKSession.m in Sources */,
+				6577E714198A5AB60031A367 /* OKFriends.m in Sources */,
+				6577E71E198A5AB60031A367 /* OKTokenCache.m in Sources */,
+				6577E716198A5AB60031A367 /* Odnoklassniki.m in Sources */,
+				6577E720198A5AB60031A367 /* OKUtils.m in Sources */,
+				6577E718198A5AB60031A367 /* OKRequest.m in Sources */,
+				6577E71A198A5AB60031A367 /* OKRequestConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7584,6 +7754,11 @@
 			target = A07A4EFD178387670073F6A7 /* libchipmunk iOS */;
 			targetProxy = 46A173D21807D330005B8026 /* PBXContainerItemProxy */;
 		};
+		6577E6F8198A51BD0031A367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6577E6E6198A51400031A367 /* libcribysutils iOS */;
+			targetProxy = 6577E6F7198A51BD0031A367 /* PBXContainerItemProxy */;
+		};
 		A03F2E93178141D1006731B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1551A33E158F2AB200E66CFE /* libcocos2d Mac */;
@@ -7774,6 +7949,63 @@
 				);
 				MACH_O_TYPE = staticlib;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../external/png/include/mac $(SRCROOT)/../external/tiff/include/mac $(SRCROOT)/../external/webp/include/mac $(SRCROOT)/../external/jpeg/include/mac $(SRCROOT)/../external/freetype2/include/mac $(SRCROOT)/../external/glfw3/include/mac";
+			};
+			name = Release;
+		};
+		6577E6F4198A51400031A367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../cribysutils/ios/frameworks",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					CC_TARGET_OS_IPHONE,
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../external/websockets/prebuilt/ios\"",
+				);
+				PRODUCT_NAME = "libcribysutils iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../cocos/platform/ios $(SRCROOT)/../external/curl/include/ios $(SRCROOT)/../external/websockets/include/ios";
+			};
+			name = Debug;
+		};
+		6577E6F5198A51400031A367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../cribysutils/ios/frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					CC_TARGET_OS_IPHONE,
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../external/websockets/prebuilt/ios\"",
+				);
+				PRODUCT_NAME = "libcribysutils iOS";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../cocos/platform/ios $(SRCROOT)/../external/curl/include/ios $(SRCROOT)/../external/websockets/include/ios";
 			};
 			name = Release;
 		};
@@ -8573,6 +8805,15 @@
 			buildConfigurations = (
 				1551A34D158F2AB200E66CFE /* Debug */,
 				1551A34E158F2AB200E66CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6577E6F3198A51400031A367 /* Build configuration list for PBXNativeTarget "libcribysutils iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6577E6F4198A51400031A367 /* Debug */,
+				6577E6F5198A51400031A367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
