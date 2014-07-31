@@ -1235,6 +1235,8 @@
 		6577E71E198A5AB60031A367 /* OKTokenCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E710198A5AB60031A367 /* OKTokenCache.m */; };
 		6577E71F198A5AB60031A367 /* OKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E711198A5AB60031A367 /* OKUtils.h */; };
 		6577E720198A5AB60031A367 /* OKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E712198A5AB60031A367 /* OKUtils.m */; };
+		65D54922198AAEC400DD4821 /* FacebookController.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D54920198AAEC400DD4821 /* FacebookController.h */; };
+		65D54923198AAEC400DD4821 /* FacebookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D54921198AAEC400DD4821 /* FacebookController.m */; };
 		A07A4CAF1783777C0073F6A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551A342158F2AB200E66CFE /* Foundation.framework */; };
 		B217703C1977ECB4009EE11B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B217703B1977ECB4009EE11B /* IOKit.framework */; };
 		B21770401977ECE6009EE11B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B217703F1977ECE6009EE11B /* OpenGL.framework */; };
@@ -2911,6 +2913,8 @@
 		6577E710198A5AB60031A367 /* OKTokenCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKTokenCache.m; sourceTree = "<group>"; };
 		6577E711198A5AB60031A367 /* OKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKUtils.h; sourceTree = "<group>"; };
 		6577E712198A5AB60031A367 /* OKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKUtils.m; sourceTree = "<group>"; };
+		65D54920198AAEC400DD4821 /* FacebookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookController.h; path = Facebook/FacebookController.h; sourceTree = "<group>"; };
+		65D54921198AAEC400DD4821 /* FacebookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookController.m; path = Facebook/FacebookController.m; sourceTree = "<group>"; };
 		A03F2CB81780BD04006731B9 /* libchipmunk Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libchipmunk Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F2D9B1780BDF7006731B9 /* libbox2d Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libbox2d Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F2ED617814268006731B9 /* libcocosdenshion Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocosdenshion Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -5165,6 +5169,7 @@
 			children = (
 				6577E721198A5ACC0031A367 /* Twitter */,
 				6577E703198A5AB60031A367 /* Odnoklassniki */,
+				65D54924198AAEC900DD4821 /* Facebook */,
 			);
 			path = Social;
 			sourceTree = "<group>";
@@ -5203,6 +5208,15 @@
 			children = (
 			);
 			path = Twitter;
+			sourceTree = "<group>";
+		};
+		65D54924198AAEC900DD4821 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				65D54920198AAEC400DD4821 /* FacebookController.h */,
+				65D54921198AAEC400DD4821 /* FacebookController.m */,
+			);
+			name = Facebook;
 			sourceTree = "<group>";
 		};
 		B29594B81926D61F003EEF37 /* 3d */ = {
@@ -5471,6 +5485,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D54922198AAEC400DD4821 /* FacebookController.h in Headers */,
 				6577E71B198A5AB60031A367 /* OKSession.h in Headers */,
 				6577E71F198A5AB60031A367 /* OKUtils.h in Headers */,
 				6577E71D198A5AB60031A367 /* OKTokenCache.h in Headers */,
@@ -6949,6 +6964,7 @@
 				6577E71E198A5AB60031A367 /* OKTokenCache.m in Sources */,
 				6577E716198A5AB60031A367 /* Odnoklassniki.m in Sources */,
 				6577E720198A5AB60031A367 /* OKUtils.m in Sources */,
+				65D54923198AAEC400DD4821 /* FacebookController.m in Sources */,
 				6577E718198A5AB60031A367 /* OKRequest.m in Sources */,
 				6577E71A198A5AB60031A367 /* OKRequestConnection.m in Sources */,
 			);
