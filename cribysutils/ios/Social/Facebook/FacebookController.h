@@ -13,5 +13,5 @@
     
 }
 
--(bool)isSessionActive();
+-(bool)isLoggedIn;
 @end

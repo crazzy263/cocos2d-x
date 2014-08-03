@@ -12,17 +12,13 @@
 @implementation FacebookController
 
 
--(bool) isSessionActive() {
+-(bool) isLoggedIn {
     bool return_value = NO;
     
     if(FBSession.activeSession.state == FBSessionStateOpen) {
         return_value =  YES;
     }
     return return_value;
-}
-
--(bool) login() {
-    
 }
 
 @end

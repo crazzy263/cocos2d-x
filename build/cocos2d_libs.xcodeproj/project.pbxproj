@@ -1221,20 +1221,6 @@
 		50ABC0691926664800A911A9 /* CCStdC.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ABBF551926664700A911A9 /* CCStdC.h */; };
 		6577E6FF198A52580031A367 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6577E6FE198A52580031A367 /* FacebookSDK.framework */; };
 		6577E701198A56790031A367 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6577E700198A56790031A367 /* Twitter.framework */; };
-		6577E713198A5AB60031A367 /* OKFriends.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E705198A5AB60031A367 /* OKFriends.h */; };
-		6577E714198A5AB60031A367 /* OKFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E706198A5AB60031A367 /* OKFriends.m */; };
-		6577E715198A5AB60031A367 /* Odnoklassniki.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E707198A5AB60031A367 /* Odnoklassniki.h */; };
-		6577E716198A5AB60031A367 /* Odnoklassniki.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E708198A5AB60031A367 /* Odnoklassniki.m */; };
-		6577E717198A5AB60031A367 /* OKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E709198A5AB60031A367 /* OKRequest.h */; };
-		6577E718198A5AB60031A367 /* OKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E70A198A5AB60031A367 /* OKRequest.m */; };
-		6577E719198A5AB60031A367 /* OKRequestConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E70B198A5AB60031A367 /* OKRequestConnection.h */; };
-		6577E71A198A5AB60031A367 /* OKRequestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E70C198A5AB60031A367 /* OKRequestConnection.m */; };
-		6577E71B198A5AB60031A367 /* OKSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E70D198A5AB60031A367 /* OKSession.h */; };
-		6577E71C198A5AB60031A367 /* OKSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E70E198A5AB60031A367 /* OKSession.m */; };
-		6577E71D198A5AB60031A367 /* OKTokenCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E70F198A5AB60031A367 /* OKTokenCache.h */; };
-		6577E71E198A5AB60031A367 /* OKTokenCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E710198A5AB60031A367 /* OKTokenCache.m */; };
-		6577E71F198A5AB60031A367 /* OKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577E711198A5AB60031A367 /* OKUtils.h */; };
-		6577E720198A5AB60031A367 /* OKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577E712198A5AB60031A367 /* OKUtils.m */; };
 		65D54922198AAEC400DD4821 /* FacebookController.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D54920198AAEC400DD4821 /* FacebookController.h */; };
 		65D54923198AAEC400DD4821 /* FacebookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D54921198AAEC400DD4821 /* FacebookController.m */; };
 		A07A4CAF1783777C0073F6A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551A342158F2AB200E66CFE /* Foundation.framework */; };
@@ -2896,23 +2882,10 @@
 		50FCEB9018C72017004AD434 /* WidgetReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WidgetReader.cpp; sourceTree = "<group>"; };
 		50FCEB9118C72017004AD434 /* WidgetReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetReader.h; sourceTree = "<group>"; };
 		50FCEB9218C72017004AD434 /* WidgetReaderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetReaderProtocol.h; sourceTree = "<group>"; };
+		652A41CC198CCC1300EF989A /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = CribysBlind/View.xib; sourceTree = "<group>"; };
 		6577E6F6198A51400031A367 /* libcribysutils iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcribysutils iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6577E6FE198A52580031A367 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		6577E700198A56790031A367 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Twitter.framework; sourceTree = DEVELOPER_DIR; };
-		6577E705198A5AB60031A367 /* OKFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKFriends.h; sourceTree = "<group>"; };
-		6577E706198A5AB60031A367 /* OKFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKFriends.m; sourceTree = "<group>"; };
-		6577E707198A5AB60031A367 /* Odnoklassniki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Odnoklassniki.h; sourceTree = "<group>"; };
-		6577E708198A5AB60031A367 /* Odnoklassniki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Odnoklassniki.m; sourceTree = "<group>"; };
-		6577E709198A5AB60031A367 /* OKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKRequest.h; sourceTree = "<group>"; };
-		6577E70A198A5AB60031A367 /* OKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKRequest.m; sourceTree = "<group>"; };
-		6577E70B198A5AB60031A367 /* OKRequestConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKRequestConnection.h; sourceTree = "<group>"; };
-		6577E70C198A5AB60031A367 /* OKRequestConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKRequestConnection.m; sourceTree = "<group>"; };
-		6577E70D198A5AB60031A367 /* OKSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKSession.h; sourceTree = "<group>"; };
-		6577E70E198A5AB60031A367 /* OKSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKSession.m; sourceTree = "<group>"; };
-		6577E70F198A5AB60031A367 /* OKTokenCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKTokenCache.h; sourceTree = "<group>"; };
-		6577E710198A5AB60031A367 /* OKTokenCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKTokenCache.m; sourceTree = "<group>"; };
-		6577E711198A5AB60031A367 /* OKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKUtils.h; sourceTree = "<group>"; };
-		6577E712198A5AB60031A367 /* OKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKUtils.m; sourceTree = "<group>"; };
 		65D54920198AAEC400DD4821 /* FacebookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FacebookController.h; path = Facebook/FacebookController.h; sourceTree = "<group>"; };
 		65D54921198AAEC400DD4821 /* FacebookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FacebookController.m; path = Facebook/FacebookController.m; sourceTree = "<group>"; };
 		A03F2CB81780BD04006731B9 /* libchipmunk Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libchipmunk Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -5138,6 +5111,14 @@
 			path = TextReader;
 			sourceTree = "<group>";
 		};
+		652A41CD198CCC3200EF989A /* CribysBlind */ = {
+			isa = PBXGroup;
+			children = (
+				652A41CC198CCC1300EF989A /* View.xib */,
+			);
+			name = CribysBlind;
+			sourceTree = "<group>";
+		};
 		6577E6F9198A51FF0031A367 /* cribysutils */ = {
 			isa = PBXGroup;
 			children = (
@@ -5152,6 +5133,7 @@
 			children = (
 				6577E702198A5AB60031A367 /* Social */,
 				6577E6FD198A52580031A367 /* frameworks */,
+				652A41CD198CCC3200EF989A /* CribysBlind */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -5168,39 +5150,9 @@
 			isa = PBXGroup;
 			children = (
 				6577E721198A5ACC0031A367 /* Twitter */,
-				6577E703198A5AB60031A367 /* Odnoklassniki */,
 				65D54924198AAEC900DD4821 /* Facebook */,
 			);
 			path = Social;
-			sourceTree = "<group>";
-		};
-		6577E703198A5AB60031A367 /* Odnoklassniki */ = {
-			isa = PBXGroup;
-			children = (
-				6577E704198A5AB60031A367 /* Friends */,
-				6577E707198A5AB60031A367 /* Odnoklassniki.h */,
-				6577E708198A5AB60031A367 /* Odnoklassniki.m */,
-				6577E709198A5AB60031A367 /* OKRequest.h */,
-				6577E70A198A5AB60031A367 /* OKRequest.m */,
-				6577E70B198A5AB60031A367 /* OKRequestConnection.h */,
-				6577E70C198A5AB60031A367 /* OKRequestConnection.m */,
-				6577E70D198A5AB60031A367 /* OKSession.h */,
-				6577E70E198A5AB60031A367 /* OKSession.m */,
-				6577E70F198A5AB60031A367 /* OKTokenCache.h */,
-				6577E710198A5AB60031A367 /* OKTokenCache.m */,
-				6577E711198A5AB60031A367 /* OKUtils.h */,
-				6577E712198A5AB60031A367 /* OKUtils.m */,
-			);
-			path = Odnoklassniki;
-			sourceTree = "<group>";
-		};
-		6577E704198A5AB60031A367 /* Friends */ = {
-			isa = PBXGroup;
-			children = (
-				6577E705198A5AB60031A367 /* OKFriends.h */,
-				6577E706198A5AB60031A367 /* OKFriends.m */,
-			);
-			path = Friends;
 			sourceTree = "<group>";
 		};
 		6577E721198A5ACC0031A367 /* Twitter */ = {
@@ -5486,13 +5438,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D54922198AAEC400DD4821 /* FacebookController.h in Headers */,
-				6577E71B198A5AB60031A367 /* OKSession.h in Headers */,
-				6577E71F198A5AB60031A367 /* OKUtils.h in Headers */,
-				6577E71D198A5AB60031A367 /* OKTokenCache.h in Headers */,
-				6577E715198A5AB60031A367 /* Odnoklassniki.h in Headers */,
-				6577E713198A5AB60031A367 /* OKFriends.h in Headers */,
-				6577E719198A5AB60031A367 /* OKRequestConnection.h in Headers */,
-				6577E717198A5AB60031A367 /* OKRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6959,14 +6904,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6577E71C198A5AB60031A367 /* OKSession.m in Sources */,
-				6577E714198A5AB60031A367 /* OKFriends.m in Sources */,
-				6577E71E198A5AB60031A367 /* OKTokenCache.m in Sources */,
-				6577E716198A5AB60031A367 /* Odnoklassniki.m in Sources */,
-				6577E720198A5AB60031A367 /* OKUtils.m in Sources */,
 				65D54923198AAEC400DD4821 /* FacebookController.m in Sources */,
-				6577E718198A5AB60031A367 /* OKRequest.m in Sources */,
-				6577E71A198A5AB60031A367 /* OKRequestConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
